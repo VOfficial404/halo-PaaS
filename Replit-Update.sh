@@ -1,2 +1,2 @@
 rm -rf halo.jar
-wget -O halo.jar https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/Jar/halo-2.8.0.jar
+wget -O halo.jar https://github.com/V-Official-233/halo-PaaS/releases/download/v2.8.0-replit/application-2.8.0-SNAPSHOT.jar
