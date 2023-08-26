@@ -25,3 +25,5 @@
 - [Yugabyte](http://cloud.yugabyte.com/)
 
 # 部署
+
+[在replit平台部署](https://github.com/V-Official-233/halo-PaaS/blob/main/replit-install.md)
