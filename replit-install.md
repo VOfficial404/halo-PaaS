@@ -47,7 +47,8 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/R
   "halo.external-url": "外部访问链接，如果需要在公网访问，需要配置为实际访问地址"
 }
 ```
+更多环境变量，可参考[官方文档](https://docs.halo.run/getting-started/install/docker-compose#%E5%88%9B%E5%BB%BA%E5%AE%B9%E5%99%A8%E7%BB%84)
 
-然后点击项目上方的`Run`启动即可
+修改好环境变量后，点击项目上方的`Run`启动即可
 
 要注意的是，replit的项目一旦没有访问便会自动休眠，所以我们需要用到[Uptimerobot](https://uptimerobot.com)来每间隔几分钟对项目进行请求来阻止休眠，~这里不再过多讲解~ 下次再写
