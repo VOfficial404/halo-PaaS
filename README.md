@@ -1,6 +1,6 @@
 # halo-PaaS
 
-将 halo 博客部署在 replit、fly.io、CodeSandbox等PaaS平台
+将 halo 博客部署在 [replit](https://replit.com/)、[fly.io](https://fly.io)、[CodeSandbox](https://codesandbox.io)等PaaS平台
 
 
 # 鸣谢
@@ -12,7 +12,7 @@
 <p align="center"><b>Halo</b> [ˈheɪloʊ]，强大易用的开源建站工具。</p>
 
 # 关于数据持久化
-由于部分PaaS平台无永久卷或会定期清除本地的H2数据库（例如Replit），我们建议您使用一些免费的Mysql或是Postgresql数据库（或是使用我修改过工作路径的.Jar），以下是一些免费的数据库：
+由于部分PaaS平台无永久卷或会定期清除本地的H2数据库（例如Replit），我们建议您使用一些免费的Mysql或是Postgresql数据库，以下是一些免费的数据库：
 
 （另外请您定时做好备份，因为halo的数据是储存在 `~/halo` 目录下，所以对于无法持久化数据的平台需要您做好备份，避免数据丢失）
 
