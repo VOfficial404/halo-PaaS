@@ -51,4 +51,11 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/R
 
 修改好环境变量后，点击项目上方的`Run`启动即可
 
+# 更新
+```
+bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/Replit-update.sh)
+```
+
 要注意的是，replit的项目一旦没有访问便会自动休眠，所以我们需要用到[Uptimerobot](https://uptimerobot.com)来每间隔几分钟对项目进行请求来阻止休眠，~这里不再过多讲解~ 下次再写
+
+
