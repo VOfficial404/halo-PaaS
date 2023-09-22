@@ -16,7 +16,7 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/R
 
 （或者是使用原版Jar+外接mysql或postgresql数据库）
 
-## 安装
+## 部署
 
 新建一个bash项目
 
