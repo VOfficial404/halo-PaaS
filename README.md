@@ -27,3 +27,10 @@
 # 部署
 
 [在replit平台部署](https://github.com/V-Official-233/halo-PaaS/blob/main/replit-install.md)
+
+# Demo
+后台管理员账号密码均为：
+- 账号：admin
+- 密码：123456
+
+[Halo on replit](https://halo-dev-replith2.halo-replit.repl.co/console/dashboard)
