@@ -34,3 +34,5 @@
 - 密码：123456
 
 [Halo on replit](https://halo-dev-replith2.halo-replit.repl.co/console/dashboard)
+
+[Halo on Codesandbox](https://jx4ckr-8090.csb.app/console/dashboard)
