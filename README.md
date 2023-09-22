@@ -28,6 +28,8 @@
 
 [在replit平台部署](https://github.com/V-Official-233/halo-PaaS/blob/main/replit-install.md)
 
+[在Codesandbox平台部署](https://github.com/V-Official-233/halo-PaaS/blob/main/Codesandbox-install.md)
+
 # Demo
 后台管理员账号密码均为：
 - 账号：admin
