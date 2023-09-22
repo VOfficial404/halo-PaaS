@@ -1,4 +1,15 @@
 # 安装在replit平台
+## 安装与更新脚本
+### 安装
+
+```
+bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/Replit-install.sh)
+```
+### 更新
+
+```
+bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/Replit-update.sh)
+```
 
 ## 关于数据持久化
 因为replit平台会不定时的清除本地的数据库，所以请使用我修改过`application/src/main/resources/application.yaml`文件中的工作目录为`/home/halo/${REPL_SLUG}/.halo2`的修改版Jar
@@ -11,7 +22,7 @@
 
 ![屏幕截图 2023-08-30 220735](https://github.com/V-Official-233/halo-PaaS/assets/104217168/dcab5433-48f2-4dba-b1c7-6415ec4d8c6b)
 
-然后在右边的`Console`里输入
+然后在右边的`Console`里输入安装脚本
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/Replit-install.sh)
@@ -51,11 +62,25 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/R
 
 修改好环境变量后，点击项目上方的`Run`启动即可
 
-# 更新
-```
-bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/Replit-update.sh)
-```
+## 项目保活
+要注意的是，replit的项目一旦没有访问便会自动休眠，所以我们需要用到[Uptimerobot](https://uptimerobot.com)来每间隔几分钟对项目进行请求来阻止休眠，打开[Uptimerobot](https://uptimerobot.com)注册（登录）账号后进入Dashboard，点击左上角的Add New Monitor
 
-要注意的是，replit的项目一旦没有访问便会自动休眠，所以我们需要用到[Uptimerobot](https://uptimerobot.com)来每间隔几分钟对项目进行请求来阻止休眠，~这里不再过多讲解~ 下次再写
+![屏幕截图 2023-09-23 000726](https://github.com/V-Official-233/halo-PaaS/assets/104217168/8b775108-2847-4aeb-8e28-7158c0cd36fb)
 
+![IMG_20230923_001219](https://github.com/V-Official-233/halo-PaaS/assets/104217168/fce72d9f-3916-4dc0-97d1-9f8953358020)
 
+`Monitor Type`（类型）选择HTTP(s)
+
+`Friendly Name`（监控名称）可以随意填写
+
+`URL (or IP) `填写你的站点访问链接
+
+其他的监控项不用动，然后在右侧选择通知你的方式
+![IMG_20230923_001821](https://github.com/V-Official-233/halo-PaaS/assets/104217168/3fe409d8-16b4-434a-bee3-ac4a5628897d)
+
+填写完成后点击`Save Change`保存即可
+
+## 关于用量
+![屏幕截图 2023-09-23 002146](https://github.com/V-Official-233/halo-PaaS/assets/104217168/1074c244-f4c8-4f67-85b2-e7b863ec45a5)
+
+replit个人账户每月限制10G出站流量与10G存储空间，如果只是拿来搭建Halo足够使用了
