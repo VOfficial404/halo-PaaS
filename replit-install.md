@@ -1,14 +1,27 @@
 # 安装在replit平台
 ## 安装与更新脚本
-### 安装
+### 稳定版
+#### 安装
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/Replit-install.sh)
+bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/replit-install.sh)
 ```
-### 更新
+#### 更新
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/Replit-update.sh)
+bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/replit-update.sh)
+```
+
+### 测试版
+#### 安装
+
+```
+bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/replit-alpha-install.sh)
+```
+#### 更新
+
+```
+bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/replit-alpha-update.sh)
 ```
 
 ## 关于数据持久化
