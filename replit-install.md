@@ -37,10 +37,6 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/r
 
 然后在右边的`Console`里输入安装脚本
 
-```
-bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/Replit-install.sh)
-```
-
 回车运行等待输出结束，在左下角的`Tools`里找到`Secrets`（环境变量）
 
 ![屏幕截图 2023-08-30 221437](https://github.com/V-Official-233/halo-PaaS/assets/104217168/57e4097b-cc98-455b-b41a-ce58d198a81c)
