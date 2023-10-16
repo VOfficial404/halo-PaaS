@@ -1,6 +1,6 @@
 # 安装在replit平台
 ## 安装与更新脚本
-### 稳定版
+### 稳定版 （当前版本：2.10.0）
 #### 安装
 
 ```
@@ -12,7 +12,7 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/r
 bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/replit-update.sh)
 ```
 
-### 测试版
+### 测试版（当前版本：）
 #### 安装
 
 ```
