@@ -30,6 +30,8 @@
 
 [在Codesandbox平台部署](https://github.com/V-Official-233/halo-PaaS/blob/main/Codesandbox-install.md)
 
+由于我[fly.io](https://fly.io)账户再次被风控，导致无法部署项目，所以暂时放弃对[fly.io](https://fly.io)部署halo的研究
+
 # Demo
 后台管理员账号密码均为：
 - 账号：admin
