@@ -29,6 +29,8 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/r
 
 （或者是使用原版Jar+外接mysql或postgresql数据库）
 
+> 下个版本开始改工作目录为`/home/runner/${REPL_SLUG}/.halo2`
+
 ## 部署
 
 新建一个bash项目
