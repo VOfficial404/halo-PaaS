@@ -62,7 +62,6 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/r
 - 使用本地H2数据库的环境变量示例
 ```
 {
-  "HALO_WORK_DIR": "${PWD}/halo",
   "halo.cache.page.disabled": "false",
   "halo.security.initializer.superadminusername": "初始管理员账户名称（注意不要有大写）",
   "halo.security.initializer.superadminpassword": "初始管理员账户密码",
