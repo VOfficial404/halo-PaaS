@@ -1,6 +1,6 @@
 # halo-PaaS
 
-将 halo 博客部署在 [replit](https://replit.com/)、[fly.io](https://fly.io)、[CodeSandbox](https://codesandbox.io)等PaaS平台
+将 halo 博客部署在 replit、Zeabur、railway、render、Northflank、Koyeb、fly.io、CodeSandbox等PaaS平台
 
 
 # 鸣谢
