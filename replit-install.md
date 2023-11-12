@@ -94,3 +94,8 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/r
 ![屏幕截图 2023-09-23 002146](https://github.com/V-Official-233/halo-PaaS/assets/104217168/1074c244-f4c8-4f67-85b2-e7b863ec45a5)
 
 replit个人账户每月限制10G出站流量与10G存储空间，如果只是拿来搭建Halo个人认为是足够使用了
+
+## 绑定域名
+replit的新版web似乎改了，目前正在寻找办法自定义域名
+
+![image](https://github.com/V-Official-233/halo-PaaS/assets/104217168/85fb74d5-8f9c-4d6b-8097-64398da3a2f9)
