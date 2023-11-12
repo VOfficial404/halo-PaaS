@@ -12,7 +12,7 @@
 <p align="center"><b>Halo</b> [ˈheɪloʊ]，强大易用的开源建站工具。</p>
 
 # 关于数据持久化
-由于部分PaaS平台无永久卷或会定期清除本地的H2数据库（例如Replit），我们建议您使用一些免费的Mysql或是Postgresql数据库，以下是一些免费的数据库：
+由于部分PaaS平台无永久卷，我们建议您使用一些免费的Mysql或是Postgresql数据库以及做好备份，以下是一些免费的数据库：
 
 （另外请您定时做好备份，因为halo的数据是储存在 `~/halo` 目录下，所以对于无法持久化数据的平台需要您做好备份，避免数据丢失）
 
@@ -30,8 +30,6 @@
 
 [在Codesandbox平台部署](https://github.com/V-Official-233/halo-PaaS/blob/main/Codesandbox-install.md)
 
-由于我[fly.io](https://fly.io)账户再次被风控，导致无法部署项目，所以暂时放弃对[fly.io](https://fly.io)部署halo的研究
-
 # Demo
 后台管理员账号密码均为：
 - 账号：admin
@@ -40,3 +38,15 @@
 [Halo on replit](https://halo-dev-replith2.halo-replit.repl.co/console/dashboard)
 
 [Halo on Codesandbox](https://jx4ckr-8090.csb.app/console/dashboard)
+
+# 代办
+- [x] replit
+- [x] CodeSandbox
+- [ ] Zeabur
+- [ ] fly.io
+- [ ] railway
+- [ ] render
+- [ ] Northflank
+- [ ] Koyeb
+
+> 欢迎提交 Pull Request 来让我们的教程更好
