@@ -1,6 +1,6 @@
 # 安装在replit平台
 ## 安装与更新脚本
-### 稳定版 （当前版本：2.10.0）
+### 稳定版 （当前版本：2.10.2）
 #### 安装
 
 ```
@@ -25,11 +25,11 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/r
 ```
 
 ## 关于数据持久化
-因为replit平台会不定时的清除本地的数据库，所以请使用我修改过`application/src/main/resources/application.yaml`文件中的工作目录为`/home/halo/${REPL_SLUG}/.halo2`的修改版Jar
+因为replit平台会不定时的清除本地的数据库，所以请使用我修改过`application/src/main/resources/application.yaml`文件中的工作目录为`/home/runner/${REPL_SLUG}/.halo`的修改版Jar
 
 （或者是使用原版Jar+外接mysql或postgresql数据库）
 
-> 下个版本开始改工作目录为`/home/runner/${REPL_SLUG}/.halo2`
+> 如果是使用2.10.0及之前的修改版Jar编译的工作目录为`/home/halo/${REPL_SLUG}/.halo2`，与当前新版本（2.10.2）的工作路径有出入，请在更新前先使用备份备份好您的个人数据
 
 ## 部署
 
@@ -37,7 +37,7 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/r
 
 ![屏幕截图 2023-08-30 220735](https://github.com/V-Official-233/halo-PaaS/assets/104217168/dcab5433-48f2-4dba-b1c7-6415ec4d8c6b)
 
-然后在右边的`Console`里输入安装脚本
+然后在右边的`Shell`里输入安装脚本
 
 回车运行等待输出结束，在左下角的`Tools`里找到`Secrets`（环境变量）
 
