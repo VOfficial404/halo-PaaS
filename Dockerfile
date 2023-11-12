@@ -1,3 +1,3 @@
-FROM halohub/halo:2.9.0-rc.1
+FROM halohub/halo:2.10.2
 EXPOSE 8090
-COPY application.yaml ./
+WORKDIR /home/halo/
