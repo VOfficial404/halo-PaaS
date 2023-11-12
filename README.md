@@ -1,5 +1,7 @@
 # halo-PaaS
 
+![halo on paas（纯黑背景）](https://github.com/V-Official-233/halo-PaaS/assets/104217168/6a878caf-f9ca-4358-a8e5-9ecf100b6ff8)
+
 将 halo 博客部署在 [replit](https://replit.com/)、[fly.io](https://fly.io)、[CodeSandbox](https://codesandbox.io)等PaaS平台
 
 
