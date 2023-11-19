@@ -30,6 +30,8 @@
 
 [在Codesandbox平台部署](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Codesandbox-install.md)
 
+[使用Cloudflare Workers“绑定”域名](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Cloudflare-Workers.md)
+
 # Demo
 后台管理员账号密码均为：
 - 账号：admin
