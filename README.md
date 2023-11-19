@@ -48,5 +48,7 @@
 - [ ] render
 - [ ] Northflank
 - [ ] Koyeb
+- [ ] 在无法绑定域名的平台集成Cloudflare Argo隧道
+- [ ] 哪吒探针集成（待商议）
 
 > 欢迎提交 Pull Request 来让我们的教程更好
