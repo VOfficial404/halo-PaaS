@@ -19,7 +19,7 @@
 
 ![image](https://github.com/V-Official-233/halo-PaaS/assets/104217168/a57634e8-699f-40cd-a3be-e180beebf564)
 
-端口设置8090，选择TCP（记得打开Publicly expose this port to the internet）
+端口设置8090，选择http（记得打开Publicly expose this port to the internet）
 
 ![image](https://github.com/V-Official-233/halo-PaaS/assets/104217168/64a448ed-816e-495f-855c-3f82b25ce39c)
 
