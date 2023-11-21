@@ -38,3 +38,8 @@
 ![image](https://github.com/V-Official-233/halo-PaaS/assets/104217168/c7037499-5cce-4634-8867-056fd24f2f18)
 
 ![image](https://github.com/V-Official-233/halo-PaaS/assets/104217168/98fcac2c-899f-4ad3-85f5-807c9837017c)
+
+# 绑定域名
+在左侧的Ports and DNS内绑定自己的域名
+
+![image](https://github.com/V-Official-233/halo-PaaS/assets/104217168/b58656b4-7752-4596-ba16-bc237ff87762)
