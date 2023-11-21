@@ -32,3 +32,9 @@
 ![image](https://github.com/V-Official-233/halo-PaaS/assets/104217168/d9724806-50cb-4b2d-b802-a3dafa759e8d)
 
 （因为只有0.2C，所以启动时间可能会比较长）
+# 更新
+仓库同步改动后 Northflank会自动重新部署
+
+![image](https://github.com/V-Official-233/halo-PaaS/assets/104217168/c7037499-5cce-4634-8867-056fd24f2f18)
+
+![image](https://github.com/V-Official-233/halo-PaaS/assets/104217168/98fcac2c-899f-4ad3-85f5-807c9837017c)
