@@ -1,2 +1,2 @@
-FROM halohub/halo:2.10.1
+FROM halohub/halo:2.10.2
 EXPOSE 8090
