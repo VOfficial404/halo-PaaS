@@ -1,4 +1,4 @@
-![image](https://github.com/V-Official-233/halo-PaaS/assets/104217168/9db8eaeb-64b1-422a-a9e5-33f0eb764375)# 在Northflank部署halo博客
+# 在Northflank部署halo博客
 感谢[@hanbing777](https://github.com/hanbing777)提供的Northflank账号
 注意，Northflank 需要 visa 或是 mastercard 来绑卡验证
 # 部署
