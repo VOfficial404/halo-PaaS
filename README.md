@@ -1,6 +1,6 @@
 # halo-PaaS
 
-将 halo 博客部署在 replit、Zeabur、railway、render、Northflank、Koyeb、fly.io、CodeSandbox等PaaS平台
+将 halo 博客部署在 replit、Zeabur、railway、render、fly.io、CodeSandbox等PaaS平台
 
 
 # 鸣谢
@@ -30,8 +30,6 @@
 
 [在Codesandbox平台部署](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Codesandbox.md)
 
-[在Northflank平台部署](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Northflank.md)
-
 [使用Cloudflare Workers“绑定”域名](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Cloudflare-Workers.md)
 
 # 待办
@@ -41,9 +39,9 @@
 - [ ] fly.io
 - [ ] railway
 - [ ] render
-- [ ] Northflank
-- [ ] Koyeb
 - [ ] 在无法绑定域名的平台集成Cloudflare Argo隧道
 - [ ] 哪吒探针集成（待商议）
+
+> 由于Northflank与koyeb提供都配置过低，现已放弃这两个平台
 
 > 欢迎提交 Pull Request 来让我们的教程更好
