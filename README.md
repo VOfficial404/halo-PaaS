@@ -1,3 +1,5 @@
+# 由于身体原因，本项目暂时停止维护
+
 # halo-PaaS
 
 将 halo 博客部署在 replit、Zeabur、railway、render、fly.io、CodeSandbox等PaaS平台
