@@ -22,7 +22,7 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/r
 bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/replit-update.sh)
 ```
 
-### 测试版（当前版本：）
+### 测试版（当前版本：2.11.0-rc.1）
 #### 安装
 
 ```
