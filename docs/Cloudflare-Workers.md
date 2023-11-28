@@ -40,4 +40,5 @@ addEventListener("fetch", event => {
 
 ```
 > 使用第二段支持http/https流量 的worker反代时，请加上http:// 或 https://（加上协议头）
+> 
 > 感谢[abing7k](https://github.com/abing7k)提供的第二段worker代码
