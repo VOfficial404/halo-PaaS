@@ -42,6 +42,6 @@
 - [ ] 在无法绑定域名的平台集成Cloudflare Argo隧道
 - [ ] 哪吒探针集成（待商议）
 
-> 由于Northflank与koyeb提供都配置过低，现已放弃这两个平台
+> 由于Northflank与koyeb提供都配置过低，现已暂时放弃这两个平台
 
 > 欢迎提交 Pull Request 来让我们的教程更好
