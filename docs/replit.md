@@ -22,7 +22,7 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/r
 bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/replit-update.sh)
 ```
 
-### 测试版（当前版本：2.11.0-rc.1）
+### 测试版（当前版本：2.11.0-rc.2）
 #### 安装
 
 ```
@@ -106,6 +106,8 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/r
 replit个人账户每月限制10G出站流量与10G存储空间，如果只是拿来搭建Halo个人认为是足够使用了
 
 ## 绑定域名
-replit的新版web似乎改了，目前正在寻找办法自定义域名
+新版本的replit已经限制了绑定域名
 
-![image](https://github.com/V-Official-233/halo-PaaS/assets/104217168/85fb74d5-8f9c-4d6b-8097-64398da3a2f9)
+您可以尝试
+
+[使用Cloudflare Workers来“绑定”域名](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Cloudflare-Workers.md)
