@@ -31,7 +31,7 @@ RUN apt update -y && apt install -y openjdk-17-jdk && apt install -y openjdk-17-
 
 输入
 ```
-wget -O halo.jar https://github.com/V-Official-233/halo-PaaS/releases/download/v2.11.0/halo-2.11.0-replit.jar
+wget -O halo.jar https://github.com/V-Official-233/halo-PaaS/releases/download/v2.11.1/halo-2.11.1.jar
 ```
 
 下载Jar
