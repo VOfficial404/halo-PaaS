@@ -22,18 +22,6 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/r
 bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/replit-update.sh)
 ```
 
-### 测试版（当前版本：2.11.0-rc.2）
-#### 安装
-
-```
-bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/replit-alpha-install.sh)
-```
-#### 更新
-
-```
-bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/replit-alpha-update.sh)
-```
-
 ## 关于数据持久化
 因为replit平台会不定时的清除源代码编译的Jar（工作目录为：/root/.halo2）的数据，所以请使用环境变量`"HALO_WORK_DIR": "${PWD}/.halo2"`来控制halo的数据防止被replit清除
 
