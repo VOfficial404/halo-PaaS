@@ -56,26 +56,24 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/r
 然后编辑环境变量，选择`Edit as JSON` 
 
 - 使用外接数据库的环境变量示例
-```
+```json
 {
-  "HALO_WORK_DIR": "${PWD}/halo",
-  "halo.security.initializer.superadminusername": "初始管理员账户名称（注意不要有大写）",
-  "halo.security.initializer.superadminpassword": "初始管理员账户密码",
-  "spring.r2dbc.url": "数据库连接地址",
-  "spring.r2dbc.username": "数据库用户名",
-  "spring.r2dbc.password": "数据库密码",
-  "spring.sql.init.platform": "数据库平台名称",
-  "halo.external-url": "外部访问链接，如果需要在公网访问，需要配置为实际访问地址"
+  "HALO_WORK_DIR": "${PWD}/.halo2", #工作目录，必须设置
+  "halo.cache.page.disabled": "false", #如果要用页面缓存则保留此环境变量
+  "spring.r2dbc.url": "your sql host", #数据库连接地址，请参考文档 https://docs.halo.run/getting-started/install/docker-compose 设置
+  "spring.r2dbc.username": "your sql username", #数据库用户名
+  "spring.r2dbc.password": "your sql password", #数据库密码
+  "spring.sql.init.platform": "your sql type", #数据库类型（mysql、postgresql、H2）
+  "halo.external-url": "your domain" #外部访问链接，如果需要在公网访问，需要配置为实际访问地址（例：https://www.halo.run）
 }
 ```
 
 - 使用本地H2数据库的环境变量示例
-```
+```json
 {
-  "halo.cache.page.disabled": "false",
-  "halo.security.initializer.superadminusername": "初始管理员账户名称（注意不要有大写）",
-  "halo.security.initializer.superadminpassword": "初始管理员账户密码",
-  "halo.external-url": "外部访问链接，如果需要在公网访问，需要配置为实际访问地址"
+  "HALO_WORK_DIR": "${PWD}/.halo2", #工作目录，必须设置
+  "halo.cache.page.disabled": "false", #如果要用页面缓存则保留此环境变量
+  "halo.external-url": "your domain" #外部访问链接，如果需要在公网访问，需要配置为实际访问地址（例：https://www.halo.run）
 }
 ```
 更多环境变量，可参考[官方文档](https://docs.halo.run/getting-started/install/docker-compose#%E5%88%9B%E5%BB%BA%E5%AE%B9%E5%99%A8%E7%BB%84)
