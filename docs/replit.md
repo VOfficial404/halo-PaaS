@@ -35,11 +35,8 @@ bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo-PaaS/main/r
 ```
 
 ## 关于数据持久化
-因为replit平台会不定时的清除本地的数据库，所以请使用我修改过`application/src/main/resources/application.yaml`文件中的工作目录为`/home/runner/${REPL_SLUG}/.halo`的修改版Jar
+因为replit平台会不定时的清除源代码编译的Jar（工作目录为：/root/.halo2）的数据，所以请使用环境变量`"HALO_WORK_DIR": "${PWD}/.halo2"`来控制halo的数据防止被replit清除
 
-（或者是使用原版Jar+外接mysql或postgresql数据库）
-
-> 如果是使用2.10.0及之前的修改版Jar编译的工作目录为`/home/halo/${REPL_SLUG}/.halo2`，与当前新版本（2.10.2）的工作路径有出入，请在更新前先使用备份备份好您的个人数据
 
 ## 部署
 
