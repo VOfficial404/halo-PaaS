@@ -19,10 +19,9 @@
 - [Planetscale](https://app.planetscale.com/) （Mysql）
 - [db4free](https://db4free.net/) （Mysql）
 - [Remote mysql](https://remotemysql.com/) （Mysql）
-- [Free Sql Database](https://www.freesqldatabase.com/) （Mysql）
+- [tidbcloud](https://tidbcloud.com) （Mysql）
 - [Elephantsql](https://www.elephantsql.com/) （Protgresql）
-- [Scalingo](https://scalingo.com/)
-- [Yugabyte](http://cloud.yugabyte.com/)
+- [Aiven ](https://console.aiven.io/)（Postgresql or Mysql）
 
 # Docs
 
