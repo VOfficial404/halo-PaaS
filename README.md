@@ -25,8 +25,6 @@
 
 # Docs
 
-[在replit平台部署](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/replit.md) 
-
 [在Codesandbox平台部署](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Codesandbox.md)
 
 [使用Cloudflare Workers“绑定”域名](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Cloudflare-Workers.md)
@@ -34,7 +32,6 @@
 
 
 # 待办
-~~replit （replit will soon revise their rules）~~
 - [x] CodeSandbox
 - [ ] Zeabur
 - [ ] fly.io （need visa or mastercard）
@@ -46,6 +43,6 @@
 
 > 由于Northflank与koyeb会无限重启，现已暂时放弃这两个平台
 > 
-> replit将于2024年1月1日废弃，原因请见：https://blog.replit.com/hosting-changes
+> 不再提供在replit部署，原因请见：https://blog.replit.com/hosting-changes
 > 
 > 欢迎提交 Pull Request 来让我们的教程更好
