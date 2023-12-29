@@ -1,6 +1,7 @@
 # 注意
 
-Codesandbox的所有项目都是公开的（日志，终端输出，项目文件），所以我们不建议在Codesandbox部署halo
+Codesandbox的所有项目都是公开的（日志，终端输出，项目文件），所以我们不建议在Codesandbox部署halo，可仅作体验
+> 当然如果你非要部署我也没法劝你 :p
 
 # 部署
 点击`New sandbox`，选择Docker
