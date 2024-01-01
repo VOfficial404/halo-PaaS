@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-# 设置各变量，WS 路径前缀。(注意:伪装路径不需要 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
-WEB_USERNAME=${WEB_USERNAME:-'admin'}
-WEB_PASSWORD=${WEB_PASSWORD:-'password'}
-
 # 哪吒4个参数，ssl/tls 看是否需要，不需要的话可以留空，删除或在这4行最前面加 # 以注释
 NEZHA_SERVER="$NEZHA_SERVER"
 NEZHA_PORT="$NEZHA_PORT"
@@ -16,7 +12,7 @@ ARGO_DOMAIN="$ARGO_DOMAIN"
 
 # 安装系统依赖
 check_dependencies() {
-  DEPS_CHECK=("wget" "unzip" "ss" "tar")
+  DEPS_CHECK=("wget" "unzip" "tar")
   DEPS_INSTALL=(" wget" " unzip" " iproute2" "tar")
   for ((i=0;i<${#DEPS_CHECK[@]};i++)); do [[ ! $(type -p ${DEPS_CHECK[i]}) ]] && DEPS+=${DEPS_INSTALL[i]}; done
   [ -n "$DEPS" ] && { apt-get update >/dev/null 2>&1; apt-get install -y $DEPS >/dev/null 2>&1; }
@@ -28,8 +24,6 @@ generate_argo() {
 
 ARGO_AUTH=${ARGO_AUTH}
 ARGO_DOMAIN=${ARGO_DOMAIN}
-SSH_DOMAIN=${SSH_DOMAIN}
-FTP_DOMAIN=${FTP_DOMAIN}
 
 # 下载并运行 Argo
 check_file() {
@@ -57,7 +51,7 @@ EOF
       nohup ./cloudflared tunnel --edge-ip-version auto --protocol http2 run --token ${ARGO_AUTH} 2>/dev/null 2>&1 &
     fi
   else
-    nohup ./cloudflared tunnel --edge-ip-version auto --protocol http2 --no-autoupdate --url http://localhost:8080 2>/dev/null 2>&1 &
+    nohup ./cloudflared tunnel --edge-ip-version auto --protocol http2 --no-autoupdate --url http://localhost:8090 2>/dev/null 2>&1 &
     sleep 5
     local LOCALHOST=\$(ss -nltp | grep '"cloudflared"' | awk '{print \$4}')
     ARGO_DOMAIN=\$(wget -qO- http://\$LOCALHOST/quicktunnel | cut -d\" -f4)
@@ -68,6 +62,29 @@ check_file
 run
 export_list
 ABC
+}
+
+generate_halo() {
+  cat > halo.sh << EOF
+#!/usr/bin/env bash
+
+download_halo() {
+  if [ ! -e halo.jar ]; then
+    URL=\$(wget -qO- -4 "https://api.github.com/repos/V-Official-233/halo-PaaS/releases/latest" | grep -o "https.*application-.jar")
+    URL=\${URL:-https://github.com/V-Official-233/halo-PaaS/releases/download/v2.11.3/application-2.11.3.jar}
+    wget -t 2 -T 10 -N \${URL}
+  fi
+}
+
+
+run() {
+   java -jar halo.jar 2>&1 &
+}
+
+
+download_halo
+run
+EOF
 }
 
 generate_nezha() {
@@ -114,7 +131,9 @@ EOF
 }
 
 generate_argo
+generate_halo
 generate_nezha
 
 [ -e nezha.sh ] && bash nezha.sh
 [ -e argo.sh ] && bash argo.sh
+[ -e halo.sh ] && bash halo.sh
