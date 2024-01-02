@@ -78,7 +78,7 @@ download_halo() {
 
 
 run() {
-   java -jar halo.jar 2>&1 &
+   nohup java -jar halo.jar 2>&1 &
 }
 
 
