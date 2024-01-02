@@ -70,8 +70,8 @@ generate_halo() {
 
 download_halo() {
   if [ ! -e halo.jar ]; then
-    URL=\$(wget -qO- -4 "https://api.github.com/repos/V-Official-233/halo-PaaS/releases/latest" | grep -o "https.*application-.jar")
-    URL=\${URL:-https://github.com/V-Official-233/halo-PaaS/releases/download/v2.11.3/application-2.11.3.jar}
+    URL=\$(wget -qO- -4 "https://api.github.com/repos/V-Official-233/halo-PaaS/releases/latest" | grep -o "https.*halo.jar")
+    URL=\${URL:-https://github.com/V-Official-233/halo-PaaS/releases/download/v2.11.3/halo.jar}
     wget -t 2 -T 10 -N \${URL}
   fi
 }
