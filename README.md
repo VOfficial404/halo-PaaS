@@ -12,6 +12,7 @@
 </p>
 <p align="center"><b>Halo</b> [ˈheɪloʊ]，强大易用的开源建站工具。</p>
 
+
 Lu7fer/Jar4Halo 使用Github Action构建Halo Jar
 
 # 关于数据持久化
