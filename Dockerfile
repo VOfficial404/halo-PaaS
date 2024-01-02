@@ -1,4 +1,15 @@
-FROM halohub/halo:2.11.2
+FROM debian
+
+WORKDIR /workdir
+
+COPY files/* /workdir/
+
+RUN apt update -y &&\
+    apt install -y openjdk-17-jdk openjdk-17-jre wget curl &&\
+    wget -O cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb &&\
+    dpkg -i cloudflared.deb &&\
+    rm -f cloudflared.deb
+
+ENTRYPOINT ["bash", "main.sh"]
+
 EXPOSE 8090
-HEALTHCHECK --interval=30s --timeout=5s \
-  CMD curl -f http://localhost:8090/actuator/health/readiness
