@@ -2,7 +2,7 @@ name: Build Halo Jar
 on:
   push:
     branches:
-      - main
+      - Build
   schedule:
     - cron: '30 15 * * *'
     - cron: '30 5 * * *'
