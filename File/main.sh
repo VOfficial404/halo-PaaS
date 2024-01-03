@@ -60,7 +60,6 @@ EOF
 
 check_file
 run
-export_list
 ABC
 }
 
@@ -78,7 +77,7 @@ download_halo() {
 
 
 run() {
-   nohup java -jar halo.jar 2>&1 &
+   nohup java -jar halo.jar > /dev/null 2>&1 &
 }
 
 
