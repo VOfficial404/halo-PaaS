@@ -10,4 +10,5 @@ Zeabur更改了他们的平台订阅。免费的Serverless订阅无法部署Dock
 
 
 如果您升级到了Developer Plan，您可以使用下面这个按钮一键部署Halo
+
 [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/19ZRCV?referralCode=Ryan-Hu-233)
