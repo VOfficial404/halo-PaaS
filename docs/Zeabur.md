@@ -8,7 +8,10 @@ Zeabur更改了他们的平台订阅。免费的Serverless订阅无法部署Dock
 
 ![image](https://github.com/V-Official-233/halo-PaaS/assets/154123242/9752d1e6-91ff-4515-aed8-fa1d4ee21e2d)
 
-
+# 部署
 如果您升级到了Developer Plan，您可以使用下面这个按钮一键部署Halo
 
 [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/19ZRCV?referralCode=Ryan-Hu-233)
+
+# 升级
+您应该注意到了，使用上面这个模板部署后，您的Github上会多出一个叫做`Halo`的仓库，如果您需要升级Halo的版本，只需要备份数据，然后修改Dockerfile中第一行的Halo版本即可
