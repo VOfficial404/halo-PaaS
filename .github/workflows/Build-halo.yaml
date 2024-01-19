@@ -90,7 +90,7 @@ jobs:
         run: |
           ./gradlew clean build -x check
           ls -lah application/build/libs
-          cd application/build/libs/ && mv application-${{ steps.ver.outputs.version }}.jar  halo.jar
+          cd application/build/libs/ && mv halo-${{ steps.ver.outputs.version }}.jar  halo.jar
       - name: Release
         uses: softprops/action-gh-release@v1
         if: ${{ steps.check.outputs.check != 0 }}
