@@ -1,6 +1,6 @@
 # halo-PaaS
 
-将 halo 博客部署在Zeabur、Koyeb、Northflank、railway、render、fly.io、CodeSandbox等PaaS平台
+将 halo 博客部署在Zeabur、Koyeb、Northflank、railway、render、CodeSandbox等PaaS平台
 
 
 # 鸣谢
@@ -39,10 +39,9 @@ Lu7fer/Jar4Halo 使用Github Action构建Halo Jar
 
 # 待办
 - [ ] Koyeb
-- [ ] Zeabur
-- [ ] fly.io （need visa or mastercard）
-- [ ] Huggingface?
 - [ ] Northflank
+- [x] Zeabur
+- [ ] Huggingface（?）
 - [x] CodeSandbox
 - [ ] railway （not free）
 - [ ] render （not free）
@@ -52,5 +51,7 @@ Lu7fer/Jar4Halo 使用Github Action构建Halo Jar
 > 以上排序不代表优先级
 >
 > 从2023年12月31日开始不再提供在replit部署，原因请见：https://blog.replit.com/hosting-changes
+>
+> fly.io已被移除，原因是fly.io开始对ipv4地址进行收费
 > 
 > 欢迎提交 Pull Request 来让项目变得更好
