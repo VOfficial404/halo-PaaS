@@ -1,6 +1,8 @@
 首先在[Serv00](https://www.serv00.com)注册一个账号
 
 # 部署
+首先，在Panel中的Additional services选项卡中找到Run your own applications项目，将其设置为Enabled。
+
 然后ssh上你的虚拟主机后，使用以下命令安装pm2
 ```auto
 mkdir -p ~/.npm-global && npm config set prefix '~/.npm-global' && echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.bashrc && source ~/.bashrc && npm install -g pm2
@@ -52,14 +54,17 @@ chmod +x run.sh && sh run.sh
 
 使用pm2管理运行：
 ```
+chmod +x run.sh && ~/.npm-global/bin/pm2 start sh run.sh --name halo
+```
 
 # 自动重启
+
 在Panel中找到Cron jobs选项卡，使用Add cron job功能添加任务，Specify time选择After reboot，即为重启后运行。Form type选择Advanced，Command写：
+
 ```auto
 /home/你的用户名/.npm-global/bin/pm2 resurrect
 ```
-chmod +x run.sh && ~/.npm-global/bin/pm2 start sh run.sh --name halo
-```
+
 
 添加完之后，在SSH窗口保存pm2的当前任务列表快照：
 ```
