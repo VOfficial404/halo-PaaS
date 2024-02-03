@@ -48,13 +48,13 @@ java17 -server -Xms128m -Xmx256m -jar -Duser.timezone=Asia/Shanghai /home/用户
 ```
 然后测试运行：
 ```
-chmod +x run.sh && sh run.sh
+chmod +x run.sh && ./run.sh
 ```
 确定运行没有问题后，按 Ctrl+c即可停止运行。
 
 使用pm2管理运行：
 ```
-chmod +x run.sh && ~/.npm-global/bin/pm2 start sh run.sh --name halo
+chmod +x run.sh && ~/.npm-global/bin/pm2 start ./run.sh --name halo
 ```
 
 # 自动重启
