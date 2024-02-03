@@ -29,9 +29,11 @@ Lu7fer/Jar4Halo 使用Github Action构建Halo Jar
 
 # Docs
 
-[在Zeabur平台部署](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Zeabur.md)
+[在Zeabur部署](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Zeabur.md)
 
-[在Codesandbox平台部署](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Codesandbox.md)
+[在Codesandbox部署](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Codesandbox.md)
+
+[在Serv00部署](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Serv00.md)
 
 [使用Cloudflare Workers“绑定”域名](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Cloudflare-Workers.md)
 
