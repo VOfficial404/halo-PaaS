@@ -44,7 +44,7 @@ halo:
 #!/bin/bash
 export HALO_WORK_DIR="/home/用户名/domains/halo/.halo"
 export HALO_EXTERNAL_URL="https://xxxxx.com"
-java17 -server -Xms128m -Xmx256m -jar -Duser.timezone=Asia/Shanghai /home/用户名/halo的jar包所在路径/halo.jar --spring.config.additional-location=/home/用户名/halo的jar包所在路径/.halo/application.yaml
+java17 -server -Xms128m -Xmx256m -jar -Duser.timezone=Asia/Shanghai /home/用户名/domains/halo/halo.jar --spring.config.additional-location=/home/用户名/domains/halo/.halo/application.yaml
 ```
 然后测试运行：
 ```
