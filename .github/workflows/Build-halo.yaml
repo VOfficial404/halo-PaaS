@@ -1,14 +1,19 @@
 name: Build Halo Jar
 on:
   workflow_dispatch:
-    tags:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+      tags:
         description: 'Test scenario tags'
     push:
       branches:
         - Build
-       schedule:
-        - cron: '30 15 * * *'
-        - cron: '30 5 * * *'
+    schedule:
+      - cron: '30 15 * * *'
+      - cron: '30 5 * * *'      
 jobs:
   halo:
     runs-on: ubuntu-latest
