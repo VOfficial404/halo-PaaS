@@ -8,12 +8,12 @@ on:
         default: 'warning'
       tags:
         description: 'Test scenario tags'
-push:
-   branches:
-     - Build
-schedule:
-   - cron: '30 15 * * *'
-   - cron: '30 5 * * *'
+      push:
+      branches:
+        - Build
+       schedule:
+        - cron: '30 15 * * *'
+        - cron: '30 5 * * *'
 jobs:
   halo:
     runs-on: ubuntu-latest
