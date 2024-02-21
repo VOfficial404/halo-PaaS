@@ -72,7 +72,7 @@ jobs:
           java-version: '17'
       - uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '20'
         if: ${{ steps.check.outputs.check != 0 }}
       - name: gen resources
         if: ${{ steps.check.outputs.check != 0 }}
