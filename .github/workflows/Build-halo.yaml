@@ -66,11 +66,7 @@ jobs:
       - name: gen resources
         if: ${{ steps.check.outputs.check != 0 }}
         run: |
-          cd console
-          npm install -g pnpm
-          pnpm install --no-frozen-lockfile
-          pnpm build:packages
-          pnpm build
+         make -C console build
       # - name: Read value from Properties-file
       #   id: property
       #   uses: christian-draeger/read-properties@1.1.0
