@@ -6,6 +6,17 @@ on:
     schedule:
       - cron: '30 15 * * *'
       - cron: '30 5 * * *'      
+    workflow_dispatch:
+      inputs:
+        logLevel:
+          description: 'Log level'
+          required: true
+          default: 'warning'
+          type: choice
+          options:
+          - info
+          - warning
+          - debug      
 jobs:
   halo:
     runs-on: ubuntu-latest
