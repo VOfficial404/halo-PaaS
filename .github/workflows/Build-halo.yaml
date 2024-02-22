@@ -77,7 +77,7 @@ jobs:
       - name: gen resources
         if: ${{ steps.check.outputs.check != 0 }}
         run: |
-          cd console
+          ls
           npm install -g pnpm
           pnpm install --no-frozen-lockfile
           pnpm build:packages
