@@ -30,7 +30,7 @@ runs:
       with:
         node-version: ${{ inputs.node-version }}
         cache: 'pnpm'
-        cache-dependency-path: 'ui/pnpm-lock.yaml'
+        cache-dependency-path: './.github/actions/setup-env/pnpm-lock.yaml'
 
     - name: Setup JDK
       uses: actions/setup-java@v4
