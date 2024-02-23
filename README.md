@@ -36,6 +36,7 @@ Lu7fer/Jar4Halo 使用Github Action构建Halo Jar
 
 [使用Cloudflare Workers“绑定”域名](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Cloudflare-Workers.md)
 
+[使用Vercel“绑定”域名](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Vercel.md)
 
 
 # 待办
@@ -44,10 +45,9 @@ Lu7fer/Jar4Halo 使用Github Action构建Halo Jar
 - [x] Zeabur
 - [ ] Huggingface（?）
 - [x] CodeSandbox
-- [ ] railway （not free）
-- [ ] render （not free）
+- [ ] railway
+- [ ] render
 - [ ] 集成Cloudflare Argo隧道
-- [ ] 集成哪吒探针（待商议）
 
 > 以上排序不代表优先级
 >
