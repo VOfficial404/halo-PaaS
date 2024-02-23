@@ -70,7 +70,7 @@ jobs:
         if: ${{ steps.check.outputs.check != 0 }}
         with:
           distribution: 'temurin'
-          java-version: '21'
+          java-version: '17'
       - uses: actions/setup-node@v3
         with:
           node-version: '20'
