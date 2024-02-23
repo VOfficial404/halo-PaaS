@@ -19,7 +19,7 @@ on:
           - warning
           - debug      
 jobs:
-  halo build:
+  halo-build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
