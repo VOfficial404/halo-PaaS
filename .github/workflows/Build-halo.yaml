@@ -22,7 +22,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: always() && (needs.test.result == 'skipped' || needs.test.result == 'success')
     steps:
       - uses: actions/checkout@v4
       - name: Setup Environment
