@@ -57,5 +57,5 @@ jobs:
           path: application/build/libs
       - name: Upload Artifacts
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.TOKEN }}
         run: gh release upload ${{ github.event.release.tag_name }} application/build/libs/*          
