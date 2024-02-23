@@ -84,7 +84,9 @@ jobs:
       - name: build
         if: ${{ steps.check.outputs.check != 0 }}
         run: |
-             ./gradlew downloadPluginPresets && ./gradlew clean build -x check
+             npm install -g pnpm
+             ./gradlew downloadPluginPresets
+             ./gradlew clean build -x check
              cd application/build/libs/ && mv halo-${{ steps.ver.outputs.version }}.jar  halo.jar
       - name: Release
         uses: softprops/action-gh-release@v1
