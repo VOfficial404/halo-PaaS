@@ -21,7 +21,6 @@ Lu7fer/Jar4Halo 使用Github Action构建Halo Jar
 > 因为halo的数据是储存在 `/root/.halo2` 目录下，所以对于无法持久化数据的平台（例如Zeabur）需要您做好备份，避免数据丢失
 
 - [Planetscale](https://app.planetscale.com/) （Mysql）
-- [db4free](https://db4free.net/) （Mysql）
 - [Remote mysql](https://remotemysql.com/) （Mysql）
 - [tidbcloud](https://tidbcloud.com) （Mysql）
 - [Elephantsql](https://www.elephantsql.com/) （Protgresql）
