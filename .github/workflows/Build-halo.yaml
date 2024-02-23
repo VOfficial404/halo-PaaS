@@ -73,7 +73,7 @@ jobs:
           java-version: '17'
       - uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: '18'
         if: ${{ steps.check.outputs.check != 0 }}
       # - name: Read value from Properties-file
       #   id: property
