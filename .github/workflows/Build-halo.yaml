@@ -19,7 +19,7 @@ on:
           - warning
           - debug      
 jobs:
-  halo:
+  halo build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -81,7 +81,7 @@ jobs:
       #   with:
       #     path: './halo/gradle.properties'
       #     properties: 'version'
-      - name: build
+      - name: Build
         if: ${{ steps.check.outputs.check != 0 }}
         run: |
              npm install -g pnpm
