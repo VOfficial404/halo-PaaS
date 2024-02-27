@@ -1,4 +1,5 @@
 # halo-PaaS
+![](https://badgen.net/github/license/V-UwU/halo-PaaS) ![](https://badgen.net/github/release/V-UwU/halo-PaaS/stable) ![](https://badgen.net/github/stars/V-UwU/halo-PaaS)
 
 将 halo 博客部署在Zeabur、Koyeb、Northflank、railway、render、CodeSandbox等PaaS平台
 
