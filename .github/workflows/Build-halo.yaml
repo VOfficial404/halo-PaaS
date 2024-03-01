@@ -38,7 +38,7 @@ jobs:
           echo ${{ steps.tag.outputs.tag }}
           VAR=$(echo "${{ steps.tag.outputs.tag }}" | sed 's/v//')
           echo $VAR
-          RELEASES=$(curl -s "https://api.github.com/repos/V-UwU/halo-PaaS/releases/tags/${{ steps.tag.outputs.tag }}")
+          RELEASES=$(curl -s "https://api.github.com/repos/V-Official-233/halo-PaaS/releases/tags/${{ steps.tag.outputs.tag }}")
           if echo "$RELEASES" | jq '.assets[].name' | grep -q "$VAR"; then
             echo "check=0" >> $GITHUB_OUTPUT
           else
