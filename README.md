@@ -24,7 +24,6 @@ Lu7fer/Jar4Halo 使用Github Action构建Halo Jar
 - [Planetscale](https://app.planetscale.com/) （Mysql）
 - [Remote mysql](https://remotemysql.com/) （Mysql）
 - [tidbcloud](https://tidbcloud.com) （Mysql）
-- [Elephantsql](https://www.elephantsql.com/) （Protgresql）
 - [Aiven](https://console.aiven.io/)（Postgresql or Mysql）
 
 # Docs
