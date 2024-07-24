@@ -3,6 +3,9 @@
 # 部署
 首先，在Panel中的Additional services选项卡中找到Run your own applications项目，将其设置为Enabled。
 
+![image](https://github.com/user-attachments/assets/57deceff-2132-4ac9-bd17-ab8b7e10a790)
+
+
 然后ssh上你的虚拟主机后，使用以下命令安装pm2
 ```auto
 bash <(curl -s https://github.com/V-Official-233/halo-PaaS/raw/main/serv00-install-pm2.sh)
