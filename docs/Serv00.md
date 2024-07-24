@@ -5,7 +5,7 @@
 
 然后ssh上你的虚拟主机后，使用以下命令安装pm2
 ```auto
-bash <(curl -s https://raw.githubusercontent.com/V-Official-233/halo_PaaS/main/install-pm2.sh)
+bash <(curl -s https://github.com/V-Official-233/halo-PaaS/raw/main/serv00-install-pm2.sh)
 ```
 
 创建一个工作目录
