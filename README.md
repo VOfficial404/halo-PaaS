@@ -28,6 +28,8 @@ Lu7fer/Jar4Halo 使用Github Action构建Halo Jar
 
 # Docs
 
+[在Koyeb部署](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Koyeb.md)
+
 [在Zeabur部署](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Zeabur.md)
 
 [在Codesandbox部署](https://github.com/V-Official-233/halo-PaaS/blob/main/docs/Codesandbox.md)
