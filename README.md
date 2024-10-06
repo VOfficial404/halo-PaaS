@@ -43,16 +43,14 @@ Lu7fer/Jar4Halo 使用Github Action构建Halo Jar
 - [ ] Koyeb
 - [ ] Northflank
 - [x] Zeabur
-- [ ] Huggingface（?）
 - [x] CodeSandbox
 - [ ] railway
 - [ ] render
-- [ ] 集成Cloudflare Argo隧道
 
 > 以上排序不代表优先级
 >
 > 从2023年12月31日开始不再提供在replit部署，原因请见：https://blog.replit.com/hosting-changes
 >
-> fly.io已被移除，原因是fly.io开始对ipv4地址进行收费
+> fly.io已被移除，原因是fly.io取消了旧版的每月免费5刀的套餐
 > 
 > 欢迎提交 Pull Request 来让项目变得更好
